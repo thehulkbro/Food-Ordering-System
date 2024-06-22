@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <div class="logo">
+          <img src="main logo.png" alt="Restaurant Logo" />
+          <h2>Your Restaurant Menu</h2>
+          <p>Your Slogan</p>
+        </div>
+        <nav class="nav">
+          <ul>
+            <li>Home</li>
+            <li>Your Orders</li>
+            <li>Wallet</li>
+            <li>Profile</li>
+            <li>Logout</li>
+          </ul>
+        </nav>
+        <div class="more-about-us">
+          <h3>More About Us</h3>
+          <ul>
+            <li>Our blog</li>
+            <li>Upcoming Dishes</li>
+            <li>Our Story</li>
+            <li>Social Media Links</li>
+          </ul>
+        </div>
+      </aside>
+      <main class="main-content">
+        <header class="header">
+          <div class="search-bar">
+            <input type="text" placeholder="Search Food item" />
+          </div>
+          <div class="auth-buttons">
+            <button class="btn">Signup</button>
+            <button class="btn">Login</button>
+          </div>
+        </header>
+        <section class="banner">
+          <img src="menu.png" alt="Delicious Food Menu" />
+        </section>
+        <section id="menu">
+          <h1>Menu</h1>
+          <div id="menu-items" class="menu-items"></div>
+          <button class="btn" onclick="placeOrder()">Place Order</button>
+        </section>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
